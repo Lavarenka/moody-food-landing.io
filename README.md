@@ -9,7 +9,7 @@ A dark, elegant one-page restaurant landing built from a PSD design mockup (Mood
 Once GitHub Pages is enabled for this repo, the site will be available at:
 
 ```
-https://<your-username>.github.io/moody-food-landing.io/
+https://lavarenka.github.io/moody-food-landing.io/
 ```
 
 ## Features
