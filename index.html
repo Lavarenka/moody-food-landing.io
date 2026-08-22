@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS Restaurant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-wrap">
+
+<div class="corner corner-tl"><img src="assets/icons/corner-tl.png" alt=""></div>
+<div class="corner corner-tr"><img src="assets/icons/corner-tl.png" alt=""></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#we">We</a>
+      <a href="#menu">Menu</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="we">
+  <div class="hero-bg" id="heroBg" style="background-image:url('assets/img/hero.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content fade-in-up">
+    <p class="logo-mark">DS</p>
+    <p class="logo-sub">RESTAURANT</p>
+  </div>
+  <div class="hero-text fade-in-up delay-1">
+    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+  </div>
+  <div class="hero-scroll-hint fade-in-up delay-2">
+    <span></span>
+  </div>
+</section>
+
+<!-- SPECIAL CHEF DELIGHTS -->
+<section class="split-section" id="chef-delights">
+  <div class="split-image reveal reveal-left" style="background-image:url('assets/img/chef-delights.jpg')"></div>
+  <div class="split-text reveal reveal-right">
+    <h2><span class="thin">Special</span> <span class="accent">CHEF</span></h2>
+    <h3 class="subtitle">Delights</h3>
+    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+    <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+  </div>
+</section>
+
+<!-- MENU INTRO -->
+<section class="split-section reverse" id="menu">
+  <div class="split-image reveal reveal-right" style="background-image:url('assets/img/menu.jpg')"></div>
+  <div class="split-text center-text reveal reveal-left">
+    <p class="lead">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+    <h2 class="section-title">MENU</h2>
+  </div>
+</section>
+
+<!-- FULL MENU -->
+<section class="menu-section">
+  <div class="menu-bg" style="background-image:url('assets/img/fullmenu.jpg')"></div>
+  <div class="menu-overlay"></div>
+  <div class="menu-content reveal reveal-up">
+    <p class="lead">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+    <div class="menu-group">
+      <h3 class="menu-cat">STARTERS</h3>
+      <ul class="menu-list">
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-group">
+      <h3 class="menu-cat">SPECIALTIES</h3>
+      <ul class="menu-list">
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-group">
+      <h3 class="menu-cat">DRINKS</h3>
+      <ul class="menu-list">
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+        <li><span>Food Name Here (This is Photoshop's version of Lorem Ipsum).</span><span class="dots"></span><span class="price">$18.90</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROMO 2x1 -->
+<section class="promo-section" id="services" style="background-image:url('assets/img/promo-2x1.jpg')">
+  <div class="promo-overlay"></div>
+  <div class="promo-content reveal reveal-up">
+    <h2 class="promo-title">2 x 1</h2>
+    <p class="promo-subtitle">DISCOUNT</p>
+    <p class="promo-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+  </div>
+</section>
+
+<!-- PROMO BURGERS -->
+<section class="promo-section" style="background-image:url('assets/img/promo-burgers.jpg')">
+  <div class="promo-overlay"></div>
+  <div class="promo-content reveal reveal-up">
+    <p class="promo-text small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+    <p class="promo-eyebrow">Special <span class="accent">OFFER</span></p>
+    <p class="promo-subtitle">Burgers</p>
+    <h2 class="promo-title small">25% Off</h2>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section class="split-section" id="delivery-service">
+  <div class="split-image reveal reveal-left" style="background-image:url('assets/img/delivery.jpg')"></div>
+  <div class="split-text center-text reveal reveal-right">
+    <h2 class="section-title small">DELIVERY SERVICE</h2>
+    <p class="phone-number">034 654 8526 541</p>
+    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+  </div>
+</section>
+
+<!-- PROMO DISCOUNT 20% -->
+<section class="promo-section" style="background-image:url('assets/img/promo-discount.jpg')">
+  <div class="promo-overlay"></div>
+  <div class="promo-content reveal reveal-up">
+    <h2 class="promo-title">20%</h2>
+    <p class="promo-subtitle">DISCOUNT</p>
+    <p class="promo-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" id="contact">
+  <h2 class="footer-title reveal reveal-up">THANK YOU</h2>
+
+  <div class="footer-contacts reveal reveal-up">
+    <span>Your city address</span>
+    <span class="sep">&bull;</span>
+    <span>034 568 5602 412</span>
+    <span class="sep">&bull;</span>
+    <span>yourmail@email.com</span>
+    <span class="sep">&bull;</span>
+    <span>www.yoursite.com</span>
+  </div>
+
+  <div class="social-icons">
+    <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+    <a href="#" aria-label="Facebook"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+    <a href="#" aria-label="Twitter"><img src="assets/icons/twitter.png" alt="Twitter"></a>
+    <a href="#" aria-label="WhatsApp"><img src="assets/icons/whatsapp.png" alt="WhatsApp"></a>
+  </div>
+
+  <p class="footer-body">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+  <div class="footer-decor">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+  </div>
+
+  <p class="attribution">Designed by <a href="https://www.freepik.com" target="_blank" rel="noopener">Freepik</a></p>
+</footer>
+
+<div class="corner corner-bl"><img src="assets/icons/corner-tl.png" alt=""></div>
+<div class="corner corner-br"><img src="assets/icons/corner-tl.png" alt=""></div>
+
+</div><!-- /.site-wrap -->
+
+<button class="to-top" id="toTopBtn" aria-label="Наверх">&uarr;</button>
+
+<script src="script.js"></script>
+</body>
+</html>

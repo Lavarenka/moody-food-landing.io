@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (in case tooling is added later)
+node_modules/
+
+# Local env files
+.env
+.env.local
+
+# Archives created during handoff
+*.zip
